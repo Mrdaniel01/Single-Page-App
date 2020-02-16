@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CursoSPA</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+</head>
+<body>
+    <header>
+        <ul class="button">
+            <a class="button-item"><button onclick="router.loadRoute('')">Home</button></a>
+            <a class="button-item"><button onclick="router.loadRoute('contacto')">Contacto</button></a>
+            <a class="button-item"><button onclick="router.loadRoute('aboutme')">About Me</button></a>
+        </ul>
+    </header>
+
+    <div data-router>
+        
+    </div>
+    <script src="../router.js"></script>
+    <script src="../routes.js"></script>
+    <script src="../index.js"></script>
+</body>
+</html>
